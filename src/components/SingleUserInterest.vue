@@ -58,15 +58,12 @@ const generateSeriesData = (data, dateRange) => {
     const seriesData = {};
     for (const category in data) {
         const categoryData = data[category];
-        console.log("caD", categoryData);
         const categorySeries = new Array(dateRange.length).fill(0);
 
         for (const entry of categoryData) {
             const date = formatDate(entry.date);
             const clicks = entry.interestClicks;
-            console.log("date,click", date, clicks);
             const index = dateRange.findIndex((d) => d === String(date));
-            console.log("i", index);
             if (index !== -1) {
                 categorySeries[index] = clicks;
             }

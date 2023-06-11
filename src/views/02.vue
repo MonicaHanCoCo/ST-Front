@@ -1,6 +1,6 @@
 <template>
     <main id="02-page">
-        <h1>Visual2</h1>
+        <h1>Query2</h1>
         <p>Statistical Query of Changes in User Interest</p>
         <el-divider></el-divider>
         <UserInterest />
