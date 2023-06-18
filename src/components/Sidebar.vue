@@ -16,23 +16,23 @@
         <div class="menu">
             <router-link to="/01" class="button">
                 <span class="material-icons">show_chart</span>
-                <span class="text">Life Cycle</span>
+                <span class="text">练习1</span>
             </router-link>
             <router-link to="/02" class="button">
                 <span class="material-icons">interests</span>
-                <span class="text">User Interests</span>
+                <span class="text">练习2</span>
             </router-link>
             <router-link to="/03" class="button">
                 <span class="material-icons">table_chart</span>
-                <span class="text">Complex Query</span>
+                <span class="text">练习3</span>
             </router-link>
             <router-link to="/04" class="button">
                 <span class="material-icons">recommend</span>
-                <span class="text">Real-time Recommend</span>
+                <span class="text">练习4</span>
             </router-link>
             <router-link to="/05" class="button">
                 <span class="material-icons">plagiarism</span>
-                <span class="text">Log Query</span>
+                <span class="text">练习5</span>
             </router-link>
         </div>
 

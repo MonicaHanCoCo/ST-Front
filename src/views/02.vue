@@ -1,14 +1,17 @@
 <template>
-    <main id="02-page">
-        <h1>Query2</h1>
-        <p>Statistical Query of Changes in User Interest</p>
+    <main id="p2">
+        <h1>练习2 </h1>
         <el-divider></el-divider>
-        <UserInterest />
-        <el-divider></el-divider>
-        <SingleUserInterest />
+        <h2>2.1 问题分析</h2>
+        <p></p>
+
     </main>
 </template>
 <script setup>
-import UserInterest from '../components/UserInterest.vue';
-import SingleUserInterest from '../components/SingleUserInterest.vue';
+
 </script>
+<style lang="scss" scoped>
+#p2 {
+    margin: 20px;
+}
+</style>

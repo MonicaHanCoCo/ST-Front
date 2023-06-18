@@ -1,9 +1,9 @@
 <template>
     <main id="home-page">
-        <h1>Welcome to the Visualization Panel of Business Intelligence Projects！</h1>
+        <h1>Welcome to the Visualization Panel of Software Testing Project！</h1>
         <img class="main-pic" :src="mainPicURL" alt="Welcome" />
         <div class="info">
-            <h2>BI Class Project</h2>
+            <h2>Software Testing Report</h2>
             <h3>2023 6</h3>
         </div>
     </main>
