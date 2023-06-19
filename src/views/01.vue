@@ -53,7 +53,7 @@
         </el-table><br>
         <el-divider></el-divider>
         <h2>1.4 代码设计</h2><br>
-        <img :src="l1URL" alt="Logo" />
+        <img :src="l1URL" alt="L1" />
     </main>
 </template>
 <script setup>
