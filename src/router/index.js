@@ -5,6 +5,9 @@ import V2 from '../views/02.vue'
 import V3 from '../views/03.vue'
 import V4 from '../views/04.vue'
 import V5 from '../views/05.vue'
+import V6 from '../views/06.vue'
+import V7 from '../views/07.vue'
+import V8 from '../views/08.vue'
 
 
 const router = createRouter({
@@ -33,6 +36,18 @@ const router = createRouter({
         {
             path: '/05',
             component: V5
+        },
+        {
+            path: '/06',
+            component: V6
+        },
+        {
+            path: '/07',
+            component: V7
+        },
+        {
+            path: '/08',
+            component: V8
         },
     ],
 })

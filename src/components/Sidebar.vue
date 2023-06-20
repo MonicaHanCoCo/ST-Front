@@ -34,6 +34,18 @@
                 <span class="material-icons">atm</span>
                 <span class="text">练习5</span>
             </router-link>
+            <router-link to="/06" class="button">
+                <span class="material-icons">change_history</span>
+                <span class="text">练习6</span>
+            </router-link>
+            <router-link to="/07" class="button">
+                <span class="material-icons">calendar_month</span>
+                <span class="text">练习7</span>
+            </router-link>
+            <router-link to="/08" class="button">
+                <span class="material-icons">computer</span>
+                <span class="text">测试报告</span>
+            </router-link>
         </div>
 
         <div class="flex"></div>
